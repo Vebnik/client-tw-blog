@@ -25,7 +25,8 @@
     "web-vitals": "^0.2.4"
   },
   "scripts": {
-    "start": "node -r dotenv/config src/indexExpress.js"
+    "start": "node -r dotenv/config src/indexExpress.js",
+    "build": "react-scripts build"
   },
   "eslintConfig": {
     "extends": "react-app"
