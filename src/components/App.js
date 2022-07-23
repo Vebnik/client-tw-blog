@@ -16,6 +16,9 @@ const myTheme = extendTheme({
         width: '0'
       }
     })
+  },
+  config: {
+    initialColorMode: 'dark'
   }
 })
 

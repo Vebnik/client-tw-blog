@@ -1,16 +1,5 @@
 import React, {useContext, useState} from 'react';
-import {
-	Box,
-	Button,
-	Divider,
-	FormControl,
-	FormHelperText,
-	FormLabel,
-	Input,
-	Textarea,
-	useToast,
-	Wrap
-} from "@chakra-ui/react";
+import { Box, useToast } from "@chakra-ui/react";
 import userService from '../../../service/userService'
 import {Context} from "../../../index";
 import CreatePostForm from "./CreatePostForm";
@@ -43,8 +32,6 @@ const CreatePosts = () => {
 			media,
 			createdAt: new Date()
 		}
-
-
 
 		userService.createPosts(formData)
 			.then(res => res.ok
