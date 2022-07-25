@@ -3,7 +3,6 @@ import {testPosts} from "../../utils/testPosts";
 import {SimpleGrid, useBreakpointValue, useDisclosure} from "@chakra-ui/react";
 import PostsModel from "./PostsModel";
 import userService from '../../../service/userService'
-import ModalEditPost from "./ModalEditPost";
 
 const AllPosts = () => {
 

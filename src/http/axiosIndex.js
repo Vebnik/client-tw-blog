@@ -1,5 +1,5 @@
 import axios from 'axios';
-const ROOT_API = 'https://tw-blog-app.herokuapp.com/api'
+const ROOT_API = 'https://server-tw-blog.herokuapp.com/api'
 
 const API = axios.create({
 	withCredentials: true,
